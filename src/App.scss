@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.app-container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form-container {
+  text-align: center;
+
+  h2,
+  .input-wrapper,
+  .submit-wrapper {
+    width: 100%;
+  }
+
+  .input-wrapper {
+    display: block;
+
+    input {
+      width: 100%;
+      padding: 5px;
+      outline: none;
+    }
+  }
+
+  .submit-button-wrapper {
+    margin: 20px 0;
+    button {
+        appearance: none;
+        background-color: #1b2978;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 16px;
+
+        &:hover {
+            background-color: #2a3fb7;
+        }
+    }
+}
+}
